@@ -1,48 +1,47 @@
 .hero-wrapper {
   background-color: #333333;
-  padding: 30px;
+  padding: 2vw;
   display: flex;
   justify-content: center;
-  height: calc(100vh - 156px);
-  overflow: hidden;
-  margin-top: 96px;
+  height: calc(100vh - 136px);
+  margin-top: 76px;
 }
 
 .hero {
   background-color: #B2F2BB;
-  padding: 0 135px;
-  text-align: left;
+  padding: 0 5vw;
   border-radius: 20px;
   position: relative;
-  overflow: hidden;
-  width: 100%;
-  max-width: 1400px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 100%;
+  width: 90%;
+  max-width: 1400px;
+  flex-wrap: nowrap;
 }
 
 .hero-content {
-  z-index: 1;
   position: relative;
-  max-width: 750px;
   color: #333333;
   font-family: 'Arial', 'Helvetica', sans-serif;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3vmin;
   font-weight: bold;
   margin-bottom: 15px;
   line-height: 1.2;
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 2vw;
   margin-bottom: 25px;
+  grid-column: 1;
 }
 
 .hero-button {
@@ -52,10 +51,12 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: calc(0.6rem + 1.5vmin);
   font-weight: bold;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, color 0.3s;
+  grid-column: 1;
+  width: 30%;
 }
 
 .hero-button:hover {
@@ -63,10 +64,18 @@
   color: #FAF9F6;
 }
 
-.shape-one {
+.art-one {
   position: absolute;
-  width: 450px;
-  top: 10%;
-  right: 9%;
-  z-index: 0;
+  width: 100%;
+  height: 100%;
+  grid-column: 3;
+  grid-row: 1 / span 1;
+}
+
+.art-two {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 2;
 }
