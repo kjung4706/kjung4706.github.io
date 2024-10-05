@@ -10,12 +10,12 @@ const About = () => {
           <h1>About Me</h1>
         </div>
         <div className="shape shape-blue">
-          <div className="skills">
+          <div className="blue">
             <h2>Skills</h2>
-            <div className="skills-section">
+            <div className="blue-section">
               <div>
                 <h3>Languages 🌐</h3>
-                <div className="skills-section column">
+                <div className="blue-section column">
                   <p>Python</p>
                   <p>JavaScript</p>
                   <p>SQL</p>
@@ -26,7 +26,7 @@ const About = () => {
               </div>
               <div>
                 <h3>Frameworks 🏗️</h3>
-                <div className="skills-section column">
+                <div className="blue-section column">
                   <p>React</p>
                   <p>Flask</p>
                   <p>.NET</p>
@@ -37,7 +37,7 @@ const About = () => {
               </div>
               <div>
                 <h3>Other 🔧</h3>
-                <div className="skills-section column">
+                <div className="blue-section column">
                   <p>AWS ECS</p>
                   <p>Docker</p>
                   <p>MySQL</p>
@@ -57,7 +57,7 @@ const About = () => {
           <div><b>Location</b> → Irvine, CA</div>
           <div><b>Languages</b> → English & Korean</div>
           <div><b>Hobbies</b> → Pickleball & Hiking</div>
-          <div><b>Education</b> → University of California, Irvine</div>
+          <div><b>Education</b> → UC Irvine</div>
         </div>
       </div>
     </section>

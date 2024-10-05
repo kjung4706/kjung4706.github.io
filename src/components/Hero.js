@@ -1,7 +1,6 @@
 import './Hero.css';
 
-const Art1 = '/Art1.png';
-const Art2 = '/Art2.png';
+const Art = '/Art.png';
 
 const Hero = () => {
   return (
@@ -10,8 +9,7 @@ const Hero = () => {
         <div className="hero-content">
           <h1>Hey! My name is Kyle and I'm a Full-stack Software Engineer</h1>
           <p>Welcome to my portfolio!</p>
-          <img src={Art1} alt="Decorative Art 1" className="art-one" />
-          <img src={Art2} alt="Decorative Art 2" className="art-two" />
+          <img src={Art} alt="Decorative Art 1" className="art-one" />
           <button className="hero-button">Contact Me</button>
         </div>
       </section>

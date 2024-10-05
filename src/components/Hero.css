@@ -1,62 +1,62 @@
 .hero-wrapper {
   background-color: #333333;
-  padding: 2vw;
   display: flex;
   justify-content: center;
-  height: calc(100vh - 136px);
-  margin-top: 76px;
+  padding: 14vh 4.5vmin 4.5vh;
+  height: 81.5vh;
 }
 
 .hero {
+  object-fit: fill;
   background-color: #B2F2BB;
-  padding: 0 5vw;
+  padding: 0 7vmin;
   border-radius: 20px;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 1px solid black;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  min-height: 100%;
-  width: 90%;
-  max-width: 1400px;
-  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
 }
 
 .hero-content {
   position: relative;
   color: #333333;
-  font-family: 'Arial', 'Helvetica', sans-serif;
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .hero h1 {
-  font-size: 3vmin;
+  font-size: 5vmin;
   font-weight: bold;
-  margin-bottom: 15px;
   line-height: 1.2;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .hero p {
-  font-size: 2vw;
-  margin-bottom: 25px;
+  margin-top: 4vmin;
+  font-size: 4vmin;
   grid-column: 1;
+  grid-row: 2;
 }
 
 .hero-button {
   background-color: #FAF9F6;
   color: #333333;
-  padding: 12px 24px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: calc(0.6rem + 1.5vmin);
+  font-size: 3vmin;
   font-weight: bold;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, color 0.3s;
   grid-column: 1;
-  width: 30%;
+  grid-row: 3;
+  width: 30vmin;
+  height: 10vmin
 }
 
 .hero-button:hover {
@@ -65,17 +65,25 @@
 }
 
 .art-one {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  grid-column: 3;
-  grid-row: 1 / span 1;
+  position: relative;
+  justify-self: right;
+  width: 50vmin;
+  grid-column: 2;
+  grid-row: 1 / span 3;
 }
 
-.art-two {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  grid-column: 2 / span 1;
-  grid-row: 2 / span 2;
+@media only screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 3.5vmin;
+  }
+
+  .hero p {
+    font-size: 2.5vmin;
+  }
+
+  .hero-button {
+    width: 24vmin;
+    height: 8vmin;
+    font-size: 2vmin;
+  }
 }
