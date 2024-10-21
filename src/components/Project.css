@@ -18,9 +18,7 @@
   .projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 3vmin;
-    width: 90%;
-    max-width: 1200px;
+    grid-gap: 10vmin;
   }
   
   .project-card {
@@ -29,15 +27,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2vmin;
+    padding: 4vmin;
     align-items: center;
   }
   
   .project-img {
     background-color: #B0B0B0;
     border-radius: 10px;
-    height: 20vmin;
-    width: 20vmin;
+    height: 24vmin;
+    width: 46vmin;
     display: flex;
     align-items: center;
     justify-content: center;
