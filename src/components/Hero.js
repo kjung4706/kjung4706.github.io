@@ -10,7 +10,7 @@ const Hero = () => {
           <h1>Hey! My name is Kyle and I'm a Full-stack Software Engineer</h1>
           <p>Welcome to my portfolio!</p>
           <img src={Art} alt="Decorative Art 1" className="art-one" />
-          <button className="hero-button">Contact Me</button>
+          <button className="hero-button" a href="#about">Contact Me</button>
         </div>
       </section>
     </div>

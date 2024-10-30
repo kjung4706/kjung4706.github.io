@@ -40,6 +40,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 3vmin;
+  justify-items: center;
+  
 }
 
 .shape-pink b {

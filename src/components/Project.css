@@ -36,11 +36,6 @@
     border-radius: 10px;
     height: 24vmin;
     width: 46vmin;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2vmin;
-    font-weight: bold;
   }
   
   .project-info {
@@ -64,18 +59,36 @@
     color: #29697F;
     text-decoration: none;
   }
-  
-  @media only screen and (max-width: 768px) {
+
+  @media only screen and (max-width: 1300px) {
     .projects-grid {
-      grid-template-columns: 1fr;
+      grid-gap: 2vmin;
     }
-  
-    .project-img, .project-info {
-      grid-column: span 1;
-    }
-  
+    
     .project-card {
-      grid-template-columns: 1fr;
+      padding: 1vmin;
+    }
+    .project-img {
+      height: 16vmin;
+      width: 28vmin;
+      font-size: 0.5vmin;
+    }
+    
+    .project-info {
+      padding-left: 1vmin;
+    }
+    
+    .project-info h3 {
+      font-size: 1.25vmin;
+      margin-bottom: 0.5vmin;
+    }
+    
+    .project-info p {
+      font-size: 1vmin;
+      margin-bottom: 0.75vmin;
+    }
+    
+    .project-info a {
+      font-size: 0.9vmin;
     }
   }
-  

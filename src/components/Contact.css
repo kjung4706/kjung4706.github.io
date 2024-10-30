@@ -1,0 +1,39 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vh 4vmin;
+    height: calc(100vh - 136px);
+    background-color: #FAF9F6;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 4vmin;
+    margin-bottom: 4vh;
+    color: #333333;
+  }
+  
+  .contact-links {
+    display: flex;
+    gap: 4vmin;
+  }
+  
+  .contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.3s;
+  }
+  
+  .contact-icon span {
+    margin-top: 1vmin;
+    font-size: 2vmin;
+  }
+  
+  .contact-icon:hover {
+    color: #4DB67B;
+  }
+  
