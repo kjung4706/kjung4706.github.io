@@ -1,11 +1,11 @@
 .contact-wrapper {
+    background-color: #FAF9F6;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8vh 4vmin;
-    height: calc(100vh - 136px);
-    background-color: #FAF9F6;
-    text-align: center;
+    justify-content: center;
+    padding: 4.5vh 4.5vmin 4.5vh;
+    height: 82vh;
   }
   
   h2 {
