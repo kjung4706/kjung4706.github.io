@@ -63,6 +63,7 @@
 }
 
 .blue h2 {
+  color: #FAF9F6;
   font-size: 4vmin;
   font-weight: bold;
 }
@@ -102,7 +103,7 @@
   margin-bottom: 5vmin;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 50rem) {
   .shape-black h1 {
     font-size: 1.5vmin;
   }
@@ -148,7 +149,7 @@
 }
 
 
-@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 50rem) {
   .profile-one {
     width: 25vh;
   }

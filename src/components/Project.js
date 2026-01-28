@@ -40,10 +40,10 @@ const Projects = () => {
         <div className="project-card">
           <img src={Project4} alt="Project4" className="project-img" />
           <div className="project-info">
-            <h3>Checker AI</h3>
-            <p>Developed a checkers AI using the minimax algorithm with alpha-beta pruning, optimizing move evaluation 
-            and decision-making efficiency for competitive play​</p>
-            <a href="https://github.com/kjung4706" target="_blank" rel="noopener noreferrer">Link</a>
+            <h3>Unblur Reader</h3>
+            <p>Built a Vue 3/FastAPI accessibility tool for dyslexia that leverages AI complexity scoring to process 10,000+ 
+            words with sub-second inference for real-time typographic optimization</p>
+            <a href="https://unblur-reader.vercel.app/" target="_blank" rel="noopener noreferrer">Link</a>
           </div>
         </div>
       </div>

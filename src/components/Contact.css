@@ -9,7 +9,7 @@
   }
   
   h2 {
-    font-size: 4vmin;
+    font-size: 6vmin;
     margin-bottom: 4vh;
     color: #333333;
   }
@@ -26,8 +26,18 @@
     text-decoration: none;
     color: #333333;
     transition: color 0.3s;
+    
   }
   
+.contact-icon svg {
+  font-size: 7vmin;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon:hover svg {
+  transform: scale(1.1);
+}
+
   .contact-icon span {
     margin-top: 1vmin;
     font-size: 2vmin;

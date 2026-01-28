@@ -7,11 +7,11 @@ const Contact = () => {
       <h2>Contact</h2>
       <div className="contact-links">
         <a href="https://github.com/kjung4706" target="_blank" rel="noopener noreferrer" className="contact-icon">
-          <FaGithub size={40} />
+          <FaGithub/>
           <span>GitHub</span>
         </a>
         <a href="mailto:kjung4706@gmail.com" className="contact-icon">
-          <FaEnvelope size={40} />
+          <FaEnvelope/>
           <span>Email</span>
         </a>
       </div>
